@@ -1,0 +1,132 @@
+.up{
+    background-image: linear-gradient(to right, red,lime,yellow);
+    height:30px;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 25px;
+}
+.up2{
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: red solid 5px;
+    border-radius: 10px;
+    background-color:aquamarine;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    text-align:center;
+    border: green solid 3px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    position:static;
+}
+.child{
+   background-color: aqua;
+    border: green solid 3px;
+    border-radius: 10px;
+    width: 350px;
+}
+.up3{
+    background-image: linear-gradient(to right, red,yellow,red);
+    height:30px;
+    text-decoration: underline red 3px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.parent{
+    background-image: radial-gradient(blue,greenyellow);
+    height:150px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: space-evenly;
+    border:green solid 3px;
+    border-radius: 15px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.box{
+    border: red solid 3px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: yellow;
+    text-decoration: underline;
+    color: maroon;
+
+}
+.up4{
+    background-color: red;
+    color: white;
+    height:35px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.pgrid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 100px;
+    justify-content: space-between;
+    position:relative;
+}
+.cgrid{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.grid1{
+    background-color: lightgreen;
+    width:380px;
+    height:70px;
+    text-align: center;
+}
+.grid2{
+    background-color: steelblue;
+    width:380px;
+    height:70px;
+    text-align: left;
+   
+}
+.grid3{
+    background-color: purple;
+    width:380px;
+    height:70px;
+    text-align: left;
+
+}
+.grid4{
+    background-color: black;
+    width:100px;
+    height:356px;
+    text-align: left;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+.grid5{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width:1200px;
+    height:262px;
+    position: absolute;
+    margin-top:90px;
+    text-align: center;
+}
+.up5{
+    background-color:aqua;
+    height:20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
